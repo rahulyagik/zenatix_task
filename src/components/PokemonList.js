@@ -65,7 +65,6 @@ const PokemonList = () => {
       return pokemon.name.includes(searchInput.value);
     }
   });
-  console.log(filteredPokemon, searchInput, pokemonData);
 
   const handleModal = () => {
     setOpenModal((previous) => !previous);
