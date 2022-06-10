@@ -18,7 +18,7 @@ const CardUi = ({ id, name }) => {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          {name.toUpperCase()}
+          {name?.toUpperCase()}
         </Typography>
       </CardContent>
       <CardActions>
